@@ -10,6 +10,9 @@ The server itself does not have any dependencies, besides python.
 
 Note: this is tested on Ubuntu Linux 20.04 with python 3.8.
 
+Another Note: This is by no means a full fledged MQTT server. It is just a bit
+of fun.
+
 Install demo
 ============
 
