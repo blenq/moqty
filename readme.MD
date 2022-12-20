@@ -33,28 +33,28 @@ Run demo
 
 Within an activated virtual environment run server
 
-```shell
-$ python moqty/run_moqty.py
+```console
+python moqty/run_moqty.py
 ```
 
 In another shell, with activated virtual environment, run the listener,
 which is subscribed to everything. To set up multiple listeners, just
 repeat this step.
 
-```shell
-$ python moqty/listener.py
+```console
+python moqty/listener.py
 ```
 
 In yet another shell run the sender with optional arguments "topic" and
 "payload"
 
-```shell
-$ python moqty/sender.py my_topic Hello
+```console
+python moqty/sender.py my_topic Hello
 ```
 
 The listener(s) will now print the topic and the payload to the screen
 
-```shell
+```console
 $ python moqty/listener.py 
 Connected
 my_topic Hello
