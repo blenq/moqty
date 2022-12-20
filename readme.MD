@@ -20,11 +20,11 @@ Create a virtual environment, activate, clone repo and install deps
 
 ```shell
 
-$ python -m venv venv
-$ . venv/bin/activate
-$ python -m pip install -U pip setuptools wheel
-$ git clone https://github.com/blenq/moqty.git
-$ python -m pip install -r moqty/requirements.txt
+python -m venv venv
+. venv/bin/activate
+python -m pip install -U pip setuptools wheel
+git clone https://github.com/blenq/moqty.git
+python -m pip install -r moqty/requirements.txt
 
 ```
 
